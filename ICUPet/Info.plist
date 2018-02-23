@@ -34,5 +34,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Application ต้องการเปิดใช้งาน Location Service</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Application ต้องการเปิดใช้งาน Location Service ตลอดเวลา</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Application ต้องการเปิดใช้งาน Camera</string>
 </dict>
 </plist>

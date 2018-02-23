@@ -14,6 +14,11 @@
 		520730BF1F5C4EB300C95CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520730BD1F5C4EB300C95CD6 /* LaunchScreen.storyboard */; };
 		520730CA1F5C4EB300C95CD6 /* ICUPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520730C91F5C4EB300C95CD6 /* ICUPetTests.swift */; };
 		520730D51F5C4EB300C95CD6 /* ICUPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520730D41F5C4EB300C95CD6 /* ICUPetUITests.swift */; };
+		520730E41F5C639100C95CD6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520730E31F5C639100C95CD6 /* MapKit.framework */; };
+		520730E61F5C63AE00C95CD6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520730E51F5C63AE00C95CD6 /* CoreLocation.framework */; };
+		520730E81F5C6BE400C95CD6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520730E71F5C6BE400C95CD6 /* CoreTelephony.framework */; };
+		520730EA1F5C6C1800C95CD6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520730E91F5C6C1800C95CD6 /* OpenGLES.framework */; };
+		520730EC1F5C6C2100C95CD6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520730EB1F5C6C2100C95CD6 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		520730D01F5C4EB300C95CD6 /* ICUPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICUPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520730D41F5C4EB300C95CD6 /* ICUPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICUPetUITests.swift; sourceTree = "<group>"; };
 		520730D61F5C4EB300C95CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520730E31F5C639100C95CD6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		520730E51F5C63AE00C95CD6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		520730E71F5C6BE400C95CD6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		520730E91F5C6C1800C95CD6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		520730EB1F5C6C2100C95CD6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520730EC1F5C6C2100C95CD6 /* GLKit.framework in Frameworks */,
+				520730EA1F5C6C1800C95CD6 /* OpenGLES.framework in Frameworks */,
+				520730E81F5C6BE400C95CD6 /* CoreTelephony.framework in Frameworks */,
+				520730E61F5C63AE00C95CD6 /* CoreLocation.framework in Frameworks */,
+				520730E41F5C639100C95CD6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				520730C81F5C4EB300C95CD6 /* ICUPetTests */,
 				520730D31F5C4EB300C95CD6 /* ICUPetUITests */,
 				520730B21F5C4EB300C95CD6 /* Products */,
+				520730E21F5C639100C95CD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +139,18 @@
 				520730D61F5C4EB300C95CD6 /* Info.plist */,
 			);
 			path = ICUPetUITests;
+			sourceTree = "<group>";
+		};
+		520730E21F5C639100C95CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520730EB1F5C6C2100C95CD6 /* GLKit.framework */,
+				520730E91F5C6C1800C95CD6 /* OpenGLES.framework */,
+				520730E71F5C6BE400C95CD6 /* CoreTelephony.framework */,
+				520730E51F5C63AE00C95CD6 /* CoreLocation.framework */,
+				520730E31F5C639100C95CD6 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
